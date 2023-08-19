@@ -48,8 +48,8 @@ class Main extends PluginBase implements Listener {
     public $serverData,$versionManager;
     private $prefix;
     private $scoreHud;
-    private $ScoreHudSupport = false;
-    private $Voting38 = false;
+    private $ScoreHudSupport;
+    private $Voting38;
     private bool $ScoreboardSupport;
 
 	public function onEnable() : void{
